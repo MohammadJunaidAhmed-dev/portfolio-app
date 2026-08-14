@@ -1,0 +1,20 @@
+# IDE & Caches
+.vs/
+.vscode/
+.idea/
+
+# Node & Angular
+node_modules/
+dist/
+.angular/
+
+# .NET
+bin/
+obj/
+*.user
+*.userosscache
+*.sln.docstates
+
+# OS
+.DS_Store
+Thumbs.db
