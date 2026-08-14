@@ -6,6 +6,8 @@ using Microsoft.OpenApi.Models;
 using PortfolioApi.Data;
 using PortfolioApi.Services;
 
+Environment.SetEnvironmentVariable("DOTNET_USE_POLLING_FILE_WATCHER", "true");
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
