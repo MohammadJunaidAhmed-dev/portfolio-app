@@ -115,4 +115,7 @@ app.UseAuthorization();
 
 app.MapControllers();
 
+// Redirect root domain to Swagger UI
+app.MapGet("/", () => Results.Redirect("/swagger"));
+
 app.Run();
