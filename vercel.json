@@ -1,6 +1,7 @@
 {
   "version": 2,
-  "outputDirectory": "dist/portfolio-frontend/browser",
+  "outputDirectory": "frontend/dist/portfolio-frontend/browser",
+  "buildCommand": "cd frontend && npm install && npx ng build --configuration production",
   "routes": [
     {
       "src": "/(.*\\.(js|css|ico|png|jpg|jpeg|svg|webp|json|pdf|woff|woff2|ttf|eot))",
